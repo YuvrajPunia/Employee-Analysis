@@ -8,7 +8,6 @@ Developed an Employee Attrition Analytics System using Python, MySQL, Pandas, an
 - Source: Employee Attrition Dataset
 
 ## Features
-## Features
 
 - **CSV to MySQL Data Import**
   - Imported and stored 4,653 employee records from a CSV dataset into a MySQL database.
