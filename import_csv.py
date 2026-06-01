@@ -1,5 +1,5 @@
 import sys
-import mysql.connector          # ← import BEFORE pandas
+import mysql.connector          
 import pandas as pd
 
 print("All libraries loaded.", flush=True)
