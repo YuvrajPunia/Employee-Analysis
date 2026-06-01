@@ -35,9 +35,7 @@ try:
         wspace=0.35
     )
 
-    # -------------------------------------------------
     # Chart 1 - Overall Attrition
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT LeaveOrNot, COUNT(*)
@@ -63,9 +61,7 @@ try:
 
     print("Chart 1 Complete", flush=True)
 
-    # -------------------------------------------------
     # Chart 2 - Attrition by City
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT
@@ -90,9 +86,7 @@ try:
 
     print("Chart 2 Complete", flush=True)
 
-    # -------------------------------------------------
     # Chart 3 - Education
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT
@@ -116,9 +110,7 @@ try:
 
     print("Chart 3 Complete", flush=True)
 
-    # -------------------------------------------------
     # Chart 4 - Gender
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT
@@ -141,9 +133,7 @@ try:
 
     print("Chart 4 Complete", flush=True)
 
-    # -------------------------------------------------
     # Chart 5 - Payment Tier
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT
@@ -167,9 +157,7 @@ try:
 
     print("Chart 5 Complete", flush=True)
 
-    # -------------------------------------------------
     # Chart 6 - Experience
-    # -------------------------------------------------
 
     cursor.execute("""
         SELECT
